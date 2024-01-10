@@ -1,0 +1,111 @@
+@media(max-width:1399px){
+
+}
+@media(max-width:1199px){
+    .w-xl-1{
+        width: 100%;
+    }
+    .about .about-item .about-details{
+        padding: 50px 0;
+    }
+    .contact-content ul{
+        padding-bottom: 30px;
+    }
+    .contact-form{
+        padding-top: 30px;
+    }
+    .banner .banner-content h2{
+        font-size: 24px;
+    }
+    .banner .banner-content h1{
+        font-size: 38px;
+    }
+    .banner .banner-content p{
+        font-size: 16px;
+    }
+}
+@media(max-width:991px){
+    .w-lg-1{
+        width: 100%;
+    }
+    .align-start{
+        align-items: flex-start;
+    }
+    .m-lg-e{
+        margin-left: 0;
+    }
+    header{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 100%;
+        padding: 20px 20px;
+        z-index: 9;
+    }
+    header .profile-img{
+        display: none;
+    }
+    header h2{
+        margin: 0;
+        text-align: left;
+    }
+    header nav{
+        text-align: left;
+        position: relative;
+        left: 0;
+        right: 0;
+        padding-top: 10px;
+        display: none;
+    }
+    header .social-icon{
+        position: absolute;
+        top: 39px;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+    header .toggle{
+        display: block;
+    }
+    .banner{
+        height: 400px;
+    }
+    .banner .banner-content{
+	    transform: translate(-50%,-75%);
+    }
+    .banner .banner-content h2{
+        font-size: 22px;
+    }
+    .banner .banner-content h1{
+        font-size: 32px;
+    }
+    .banner .banner-content p{
+        font-size: 14px;
+    }
+    footer .copyright{
+        text-align: center;
+    }
+    footer .copyright ul{
+        justify-content: center;
+        padding-top: 20px;
+    }
+}
+@media(max-width:767px){
+    .w-md-1{
+        width: 100%;
+    }
+    .about .about-heading h2, .resume-heading h2, .portfolio-heading h2, .contact-heading h2{
+        font-size: 80px;
+    }
+    .about .about-heading p, .resume-heading p, .portfolio-heading p, .contact-heading p{
+        font-size: 28px;
+    }
+    .portfolio .gallery{
+        column-count: 2;
+    }
+}
+@media(max-width:575px){
+    .portfolio .gallery{
+        column-count: 1;
+    } 
+}
